@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--Text style-->
+   <style name="ExpressionText">
+      <item name="android:textSize">24sp</item>
+      <item name="android:textColor">@color/grey</item> <!-- Black color -->
+   </style>
+
+   <!-- Text style for result -->
+   <style name="ResultText">
+      <item name="android:textSize">40sp</item>
+      <item name="android:textColor">#000000</item> <!-- Black color -->
+   </style>
+
+   <!-- Parent Button style -->
+   <style name="ButtonBaseStyle">
+      <item name="android:layout_width">80dp</item>
+      <item name="android:layout_height">80dp</item>
+      <item name="android:textSize">24sp</item>
+      <item name="android:layout_margin">4dp</item>
+   </style>
+
+   <!-- Button style -->
+   <style name="ButtonWhiteStyle" parent="ButtonBaseStyle">
+      <item name="android:background">#FFBB86FC</item>
+      <item name="android:textColor">#000000</item>
+   </style>
+
+   <style name="ButtonGreyStyle" parent="ButtonBaseStyle">
+      <!-- Add any specific styles for ButtonGreyStyle here -->
+   </style>
+
+   <style name="ButtonDigitStyle" parent="ButtonBaseStyle">
+      <item name="android:background">@drawable/bg_btn_rounded</item>
+      <item name="backgroundTint">@color/grey</item>
+      <item name="android:textColor">#FFFFFF</item>
+      <item name="android:layout_margin">8dp</item>
+   </style>
+
+   <style name="ButtonOperatorStyle" parent="ButtonBaseStyle">
+      <item name="android:background">@drawable/bg_btn_rounded</item>
+      <item name="backgroundTint">@color/orange</item>
+      <item name="android:textColor">#FFFFFF</item>
+      <item name="android:layout_margin">8dp</item>
+   </style>
+</resources>
